@@ -1,0 +1,124 @@
+body{
+    background-image: url('../imageAdmin/fate-of-the-furious.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 900px;
+    height: auto;
+    margin: 10px auto auto 385px;
+}
+
+
+.rate{
+    width: 30%;
+}
+
+.labelKinopoisk{
+    width: 23%;
+}
+
+.category{
+    margin-left: 0px!important;
+}
+
+.labelCategory{
+ padding: 7px 7px;
+}
+
+.form-horizontal .form-group {
+    margin-top: 25px!important;
+    margin-bottom: 25px!important;
+}
+
+#ratingKinopoisk{
+    margin-bottom: 35px;    
+}
+
+.categoryDiv{
+    width: 240px;
+    display: inline-block;
+    padding-left: 25px;
+}
+
+input[type="text"]::placeholder,textarea::placeholder,input[type="password"]::placeholder{
+    color:white!important;
+}
+
+.checkbox{
+ font-size: 18px;
+}
+
+.categoryCheckbox{
+ width: 20px;
+ height: 20px; 
+ margin-right: 10px;
+}
+
+#customFile{
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.custom-file{
+    width: 900px;
+    margin: 0 auto;
+    
+}
+
+h1{
+      font-family: cursive;
+      text-align: center;
+}
+
+.submitFilm{
+    background-color: moccasin!important;
+}
+
+.form-control{
+    background-color:#7cb3b0;
+    color: black;
+}
+
+.adminLogDiv{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 15px!important;
+    padding-left: 0!important;
+}
+
+.file{
+        display: inline-block!important;
+        margin-left: 20px;
+
+}
+
+.exit{
+    margin-left: 10px!important;
+}
+
+#description{
+    height: 100px;
+}
+
+.butbut{
+    width:150px;
+    height: 50px;
+    margin-left: 100px!important;
+    display: inline-block;
+    float:left;
+}
+
+.logout{
+  width:150px;  
+  height: 50px;
+  
+}
+
+.logoutdiv{
+    margin-top: 25px!important;
+    margin-bottom: 25px!important;
+    display: inline-block;
+    float:left;
+}
+

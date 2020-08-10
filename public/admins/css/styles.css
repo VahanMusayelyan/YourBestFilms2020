@@ -1,0 +1,35 @@
+body{
+background-color: #DCDBD7; 
+}
+.container{
+    width: 900px;
+    height: auto;
+    margin: 10px auto auto 385px;
+}
+
+
+.form-horizontal .form-group {
+    margin-top: 25px!important;
+    margin-bottom: 25px!important;
+}
+
+
+input[type="text"]::placeholder,textarea::placeholder,input[type="password"]::placeholder{
+    color:white!important;
+}
+
+
+
+h1{
+      font-family: cursive;
+      text-align: center;
+      color: #00753D;
+}
+
+
+.adminLogDiv{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 15px!important;
+    padding-left: 0!important;
+}

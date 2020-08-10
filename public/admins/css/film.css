@@ -1,0 +1,987 @@
+body{
+    background-color: #FCE39C;
+    margin: 0;
+    padding: 0;
+}
+
+.containerSite{
+    max-width: 1350px;
+    background-color: #ffffff;    
+    min-height:1600px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+.filmDiv{
+    width: 260px;
+    height: 420px;
+    display: inline-block;
+    margin: 2px 0 12px 15px;
+    background-color: #e9ecef;
+    float: left;
+    border-radius: 10px;
+}
+.filmDiv:hover{
+    background-color: #FCE39C;
+}
+
+.filmDiv p{
+    margin-top: 0;
+    margin-bottom: -25px;
+}
+
+.film{
+    width: 230px;
+    height: 330px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    float: left;
+    margin: 0 auto 1px -5px;
+}
+
+.filmsName{
+    text-decoration: none!important;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 5px;
+    color: #063fc8;
+    font-weight: 600;
+}
+
+.filmsName:hover{
+    color: #e42727;
+    font-weight: 600;
+}
+
+.filmsName:hover  body > div.containerSite > div.contentFilms > div{
+    background-color: #fce39c;
+
+}
+
+
+
+.categoryYear{
+    width: 230px;
+    height: auto;
+    display: inline-block;
+    float: left;
+}
+
+.categorylist{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.categorylist li{
+    display: block;
+    width: 100%;
+    margin: 0 0 0 16px;
+    text-align: left;
+    font-size: 17px;
+}
+
+.categorylist li a{
+    text-decoration: none;
+}
+
+.filter{
+    margin: -3px 7px 0 0!important;
+
+}
+
+h4{
+    margin:10px;
+}
+
+.filmcontent{
+    width: 1110px;
+    height: auto;
+    float: left;
+}
+
+.headerfilm{
+    width: 770px;
+    height: auto;
+    float: right;
+}
+
+
+.likDislike{
+    margin-top: 5px;
+    width: 540px;
+    height: 40px;
+
+}
+
+.like{
+    width: 100px;
+    height: 40px;
+}
+
+.like:hover{
+    background-color: #138496;
+}
+
+.dislike{
+    width: 40px;
+    height: 40px;
+    background-color: #17a2b8cf;
+}
+
+.likDislike button{
+    font-size: 16px;
+
+}
+
+.btn-watch-watched-big,.btn-watch-want-big{
+    margin-left:10px!important;
+
+}
+
+.btn-watch-want-big{
+    width: 180px;
+    height: 40px;
+}
+.btn-watch-watched-big{
+    width: 120px;
+    height: 40px;
+}
+
+.video{
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+
+iframe{
+    width: 1116px;
+    height: 677px;
+}
+
+.comment{
+    margin-top: 10px;
+    clear: both;
+    width: 100%;
+
+}
+
+.comment h1{
+    text-align: center;
+    margin: 20px 0; 
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.submit{
+    font-size: 18px;
+}
+
+.right,.left{
+    width: 80%;
+    min-height: 80px;
+    margin: 10px 0;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.right{
+    float: right;
+    background-color: #fff5d9;
+}
+
+.left{
+    float:left;
+    background-color: #e6e5e3;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #044592;
+    margin-bottom: 20px;
+
+}
+.bottomnav{
+    overflow: hidden;
+    background-color: #00316c;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 23px 28px;
+    text-decoration: none;
+    font-size: 19px;
+    transition: 0.6s;
+    cursor: pointer;
+
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: #00316c;
+}
+
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+
+    }
+
+    .topnav input[type=text]{
+        border: 1px solid #ccc;  
+    }
+}
+
+.menuDiv{
+    width: 65%;
+    height:73px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.topnav .home {
+    padding: 36px 40px 37px 40px;
+}
+
+.search-container{
+    float: left;
+    padding: 13px;
+}
+
+.searchInput{
+    width: 279px;
+}
+
+.tab-content{
+    height: 478px;
+}
+
+.welcome{
+    width: 100px;
+    height: 93px;
+}
+
+.welcomeDiv{
+    width: 93px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 70px;
+    height: 63px;  
+}
+
+.home{
+    background-image: url('/storage/app/public/upload/img.png');
+    background-repeat: no-repeat;
+    background-size: 88px;
+    -webkit-transition: background-image 0.6s ease-in-out;
+    transition: background-image 0.6s ease-in-out;
+
+}
+
+.home:hover{
+    background-image: url('/storage/app/public/upload/img1.png');
+    background-repeat: no-repeat;
+    background-size: 88px;
+
+}
+
+.custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.paginate{
+    width: 63%;
+    height: 100px;
+    clear: both;
+    margin: 0 auto;
+}
+
+.searchInput:focus{
+    border: 0;
+    outline: none;
+    background-color: #e1e5e8;
+}
+
+.containerFilm{
+    width: 81%;
+    display: inline-block;
+    padding: 10px;
+}
+#profileUpdate{
+    float:right;
+    width: 80%;
+}
+.imgFilm{
+    display: inline-block;
+}
+
+.descFilm{
+    padding: 15px 5px 0 5px;
+    width: 62%;
+    display: inline-block;
+    float: right;
+}
+
+.imgFilm img{
+    width: 400px;
+    height: 600px;
+}
+
+.desc{
+    font-weight: bold;
+    display: inline-block;
+    width: 170px;
+
+}
+
+.value{
+    width: 73%;
+    display:inline-block;
+    color: #985c00;
+
+}
+
+.textdesc{
+    color: #985c00;
+    font-weight: 600;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+}
+
+.ifram{
+    width: 1080px;
+    height: 675px;
+    margin-top: 25px;
+}
+
+
+.contentFilms{
+    width: 82%;
+    float: right;
+    height: auto;
+    display: inline-block;
+
+}
+
+.passwordError{
+    width: 37%;
+    margin: 0 auto;
+    padding: 1px 5px;
+
+}
+
+.modal-content{
+    width: 450px;
+    height: 540px;
+}
+
+.mb-5, .my-5{
+    margin-bottom: 2rem!important; 
+}
+
+.modal-body .form-control{
+    width:65%;
+    float: right;
+}
+
+.modal-dialog {
+    margin: 5.75rem auto;
+}
+
+h5{
+    font-family: cursive;
+    margin-left: 20px;
+    color: #852529;
+    text-align: center;
+}
+
+.categorylist li{
+    color: #063fc8;
+    font-weight: 600;
+}
+
+
+.categorylist li label{
+    padding: 4px 0;
+    width: 80%;
+    font-weight: 700;
+}
+
+.dropdown-menu li label{
+    width: 75%;
+}
+
+.alert{
+    width: 81%;
+    float: right;
+}
+.alert h4{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#openDiv{
+    margin: 8px 0 20px 16px;
+}
+
+
+.pagination,.paginations{
+    margin: 0 auto;
+    width: 430px;
+}
+.pagination li,.paginations li{
+    display: inline-block;
+}
+.pagination li:first-child,.paginations li:first-child{
+    margin-right: 10px;
+}
+
+
+.pagination li:last-child,.paginations li:last-child{
+    margin-left: 10px;
+}
+
+.paginations li:not(:first-child):hover a,.paginations li:not(:last-child):hover > a{
+    background-color: #bfbfbf;
+}
+
+
+.page{
+    position: relative;
+    clear: both;
+    width: 50%;
+    height: 65px;
+    margin: 50px auto;
+}
+
+.dropdown-menu{
+    width: 400px;
+}
+
+.dropdown-menu li{
+    display: inline-block;
+    width: 110px;
+}
+
+
+.likedislike:focus{
+    border: none!important;
+    outline: none;
+}
+
+.color{
+    color: #9e0505;
+}
+
+.avatarUser{
+    width: 198px;
+    height: 198px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.descUser{
+    padding: 15px 5px 0 5px;
+    width: 78%;
+    display: inline-block;
+
+}
+
+.filmsLike,.filmsDislike,.filmsLater,.filmsWatched{
+    max-width: 24%;
+    float: left;
+    margin-left: 5px;
+}
+
+.likespan{
+    font-size: 14px;
+    color: green;
+    font-weight: 600;
+}
+
+.dislikespan{
+    font-size: 14px;
+    color: red; 
+    font-weight: 600;
+}
+
+.attribute{
+    width: 100%;
+    height: auto;
+}
+
+.headerCont{
+    font-weight: 600;
+    font-size: 28px;
+    margin-left: 15px;    
+}
+
+.list{
+    background-color: #234188;
+    color: white;
+    float: right;
+    margin-right: 24px; 
+    padding: 12px 10px;
+}
+
+.filter-list-bar{
+    width: 40px!important;
+}
+
+.list:hover{
+    color: grey;
+
+}
+
+.list-type:hover{
+    background-color: #0362d4bf;
+}
+
+.activeicon{
+    float: left;
+}
+
+.fa-caret-down{
+    float: right;
+    margin-left: 5px;
+}
+
+.filmDivList{
+    width: 100%;
+    margin-bottom: 10px;
+    width: 98%;
+    height: 449px;
+}
+
+.filmListName{
+    float: left;
+    font-weight: 600;
+}
+
+.list-group{
+    margin-bottom: 10px;
+}
+
+.list-group li{
+    border: none!important;
+    padding: 5px 1.25rem
+}
+
+.watchOnline{
+    margin-left: 19px;
+    font-size: 18px;
+    font-weight: 600; 
+    color: #063fc8;
+}
+
+.like_dislike{
+    width: 10%;
+    float: right;
+    height: 25px;
+    font-size: 18px;
+}
+
+.andbtn{
+    background-color:#063fc8;
+    color: #fff;
+    float: left;
+    margin-right: 10px;
+    padding: 5px 20px;
+}
+
+.categorylist label{
+    margin-left: 10px;
+}
+
+.unselect,.unselectYear{
+    cursor: pointer;
+    font-style: italic;
+    margin-top: 10px!important;
+    color: #007bff!important;
+}
+
+.unselectYear{
+    margin: 10px 0 15px 16px!important;
+}
+
+.yearsdetails label{
+    border: 1px solid red;
+}
+
+
+
+
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.submit{
+    font-size: 18px;
+}
+
+.right,.left{
+    width: 80%;
+    min-height: 80px;
+    margin: 10px 0;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.right{
+    float: right;
+    background-color: #fff5d9;
+}
+
+.left{
+    float:left;
+    background-color: #e6e5e3;
+}
+
+.comment h2{
+    font-family: cursive;
+    color: #852529;
+    text-align: center;
+}
+
+.rating{
+    text-transform: none;
+    color: #5b5bff;
+}
+
+@import url('https://rsms.me/inter/inter-ui.css');
+
+.containerpage {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.index,.indexs {
+    cursor: pointer;
+    display: inline;
+    margin-right: 15px;
+    /*  padding: 5px;*/
+    user-select: none;
+    -moz-user-select: none;
+}
+.index:last-child,.indexs:last-child  {
+    margin: 0;
+}
+svg {
+    left: 101px;
+    position: absolute;
+    top: -5.5px;
+    transition: transform 500ms;
+    width: 44px;
+    z-index: 100;
+}
+
+
+a.page-link{
+    z-index: 111!important;
+}
+path {
+    fill:none;
+    stroke:#2FB468;
+    stroke-dasharray: 150 150;
+    stroke-width:15;
+}
+.containerpage.open:not(.flip) path,.containerpages.open:not(.flip) path  {
+    animation: OpenRight 500ms;
+}
+.containerpage.open.flip path,.containerpages.open.flip path {
+    animation: OpenLeft 500ms;
+}
+
+@keyframes OpenRight {
+    25% { stroke-dasharray: 100 150; }
+    60% { stroke-dasharray: 100 150; }
+    100% { stroke-dasharray: 150 150; }
+}
+@keyframes OpenLeft {
+    25% { stroke-dashoffset: -50px; }
+    60% { stroke-dashoffset: -50px; }
+    100% { stroke-dashoffset: 0; }
+}
+
+.page-item .page-link{
+    background-color: #D8D8D8;
+    color:black;
+    border: none;
+    border-radius: 50%;
+
+}
+.page-item.active .page-link{
+    background-color: #FCE39C;
+    color:black;
+    border: none;
+    border-radius: 50%;
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #fce39c;
+    color: black;
+}
+
+.previous,.next {
+    background-color: #F0F0F0;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.round {
+    border-radius: 50%;
+}
+
+.pagesinput{
+    width: 84%;
+}
+
+.pageInp{
+    width: 38%;
+    margin: 20px auto;
+}
+
+.rangePages{
+    margin: 10px 16px 10px 0;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.submitlink{
+    background-color: #6c757d;  
+    color: white!important;
+
+}
+
+.input-group-append{
+    height: 37px;
+    margin-top: 5px;
+}
+.pageinput{
+    height: 37px;
+    margin-top: 5px;
+}
+
+.page-item:first-child .page-link{
+    border-radius: 50%; 
+}
+
+.filmsName:hover{
+    background-color:transparent; 
+}
+
+.list-group-item:first-child{
+    padding-left: 0;
+    color: #063fc8;
+}
+
+.clear{
+    clear: both;
+}
+
+.editProfile{
+    float: right!important;
+    margin-top: 10px!important;
+}
+
+.valueName,.valueEmail{
+    width: 87%;
+    display: inline-block;
+}
+
+.descProfile{
+    font-weight: bold;
+    display: inline-block;
+    width: 80px;
+}
+
+.search{
+    display: inline-block;
+    margin-left: 125px;
+}
+
+.pacman{
+    left:158px;
+}
+
+.paginatenew li,.paginatetop li{
+    margin-left: 8px;
+}
+
+.page-item:last-child .page-link{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#updateEmail,#updateName{
+    width: 60%;  
+}
+
+.updateprofile{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+#exampleFormControlFile1{
+    margin-left: 80px; 
+}
+
+.clearProfile{
+    margin-bottom: 20px;
+}
+
+.main-footer{
+    width: 100%;
+
+}
+
+.emptyDiv{
+    width: 100%;
+    position: relative;
+}
+
+.body > nav > div > div > form > button:focus{
+    outline: none;
+}
+
+.catInp{
+    -ms-transform: scale(1.2); /* IE */
+    -moz-transform: scale(1.2); /* FF */
+    -webkit-transform: scale(1.2); /* Safari and Chrome */
+    -o-transform: scale(1.2); /* Opera */
+    transform: scale(1.2);
+    padding: 10px;
+}
+
+.filtername{
+    margin-left: 10px;
+    font-weight: 600;
+    color: red;
+}
+.filtervalue{
+    margin-left: 10px;
+    font-weight: 600;
+    color: #044592;
+}
+
+.filmsCount{
+    width: 100%;
+
+    margin-bottom: 10px;
+}
+
+.namefilm{
+    height: 92px;
+}
+
+.filmname{
+    text-align: center!important;
+}

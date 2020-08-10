@@ -1,0 +1,288 @@
+#menuDesc{
+    width: 12%;
+    height: 1250px;
+}
+
+.main-header{
+    float: right;
+    width: 83%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    margin-left: 333px!important;
+}
+
+.partnerAdd{
+    text-decoration: none;
+    color: black!important;
+}
+
+.fileChoose{
+    width: 62%!important;
+    margin:20px auto 50px auto!important;
+}
+
+
+.custom-file{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.col-sm-10{
+    display: inline-block;
+    width: 82%;
+    padding: 0;
+}
+
+.col-sm-offset-2{
+    width: 39%;
+    margin: 15px;
+    float: right;
+
+}
+
+#myform4{
+    margin:30px auto;
+}
+
+.partnerTable form,.teamTable form{
+    display: inline-block;
+}
+
+.imagePartner,.imageTeam,.imageMenu,.imageClient{
+    width: 60px;
+    height: 60px;
+}
+
+h1{
+    text-align: center;
+    margin: 0px auto 35px auto;
+    color: #343a40;
+    font-style: italic;
+}
+
+.btn-info .editlink{
+    text-decoration: none;
+    color:white;
+}
+
+.editlink{
+    margin-right: 10px;
+}
+
+input::placeholder{
+    color: grey;
+}
+
+.select2{
+    width: 100%!important;
+}
+
+.select2-selection__choice{
+    color: black!important;
+}
+
+.btn-warning{
+    margin-top: 10px;   
+}
+
+.alert-danger{
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+
+.editAndDelete{
+    width: 161px;
+    padding: 11px 0 0 11px!important;
+}
+
+.header{
+    width: 150px;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+}
+
+.video{
+    clear: both;
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 150px;
+
+}
+
+.editLinkDetails{
+    margin:10px 10px 0 10px;
+}
+
+iframe{
+    width: 1116px;
+    height: 677px;
+
+}
+
+#description{
+    height: 200px;
+}
+
+#file{
+    display: inline-block;
+}
+
+fieldset{
+    border: 1px solid #6f627b;
+    padding: 10px 15px 0 0;
+
+}
+
+legend{
+    width: auto;
+    margin: 0 auto 5px 30px;
+    border: none;
+}
+
+
+.textaera{
+    margin-top: 15px;
+}
+
+#files{
+    display: inline-block;
+}
+
+.radioSelect{
+    width: 25%;
+}
+
+.addButton{
+    width: 100%;
+    height: 50px;
+}
+
+.addButton span{
+    float: right;
+    font-size: 30px;
+    font-weight: 600;
+    color: gray;
+    cursor: pointer;
+}
+
+
+
+
+#myform1{
+    width: 80%;
+    outline:1px solid red;
+    padding: 15px;
+}
+
+
+
+.form-group{
+    width: 93%;
+    margin: 25px auto;
+}
+
+
+.js-example-basic-multiple{
+    width: 50%;
+}
+
+.fileDiv{
+    width: 62%
+}
+
+i{
+
+}
+
+.nameEngAsc,.nameRusAsc{
+    display: inline-block;
+    position: absolute;
+    right: 80px;
+    bottom: 16px;
+    font-size: 20px;
+    margin: 1px 5px;
+    height: 10px;
+}
+
+.nameEngDesc,.nameRusDesc{
+    display: inline-block;
+    position: absolute;
+    right: 80px;
+    bottom: 15px;
+    font-size: 20px;
+    margin: 1px 5px;
+    height: 0px;
+}
+
+.yearAsc,.ratingImdbAsc,.ratingKinopoiskAsc{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 16px;
+    font-size: 20px;
+    margin: 1px 5px;
+    height: 10px;
+}
+
+
+.yearDesc,.ratingImdbDesc,.ratingKinopoiskDesc{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    font-size: 20px;
+    margin: 1px 5px;
+    height: 0px;
+}
+
+.catform{
+    display: inline-block;
+}
+
+
+table > tbody > tr > th:nth-child(1){
+
+    width: 70px;
+    padding-left: 6px;
+}
+
+table > tbody > tr> td:nth-child(1){
+    
+    width: 70px;
+    padding-left: 6px;
+}
+
+table > tbody > tr > th:nth-child(4),
+table > tbody > tr > th:nth-child(5){
+      
+    width: 90px;
+    padding-left: 10px;  
+}
+
+table > tbody > tr > th:nth-child(6){
+      
+    width: 95px;
+    padding-left: 10px;  
+}
+
+table > tbody > tr > th:nth-child(9){
+      
+    width: 95px;
+    padding-left: 10px;  
+}
+
+table > tbody > tr > th:nth-child(10){
+      padding: 11px 0 0 11px;
+}
+
+table > tbody > tr > th:nth-child(7){
+      width: 300px;
+      padding: 10px 0 0 10px;
+}
+
