@@ -68,9 +68,15 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="   /public/admin/country" class="nav-link" id="country_link">
+                                    <a href="/public/admin/country" class="nav-link" id="country_link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Countries</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/public/admin/news" class="nav-link" id="news_link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>News</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">

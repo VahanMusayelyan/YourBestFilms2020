@@ -15,32 +15,6 @@
 
 
 
-    <?php if ($list == 1) { ?>
-
-        <div class="attribute"><span class="headerCont">Каталог фильмов</span>
-            <button class="btn list" data-toggle="dropdown" href="#"><i class="fa fa-th activeicon"></i> <i class="fa fa-caret-down"></i></button>
-            <div class="dropdown-menu filter-list-bar">
-                <form action="{{'/public/list'}}" method="POST">@csrf<button class="btn btn-default list-type" value="bars"> <i class="fas fa-list"></i></button></form>
-                <form action="{{'/public'}}" method="POST">@csrf<button class="btn btn-default list-type" value="square"> <i class="fa fa-th"></i></li></button></form>
-            </div>
-
-            <div class="filmsCount"><span style="font-weight: 600;margin-left:15px;color: green">Фильмов: <?= $count ?></span></div>
-        </div>
-
-
-
-        <?php
-        foreach ($result as $key => $value) {
-            echo '<div class = "filmDiv">'
-            . '<p style = "text-align:center"> '
-            . '<a href = "http://localhost1/public/film/' . $value->id . '" class = "filmsName">'
-            . '<img class = "film" src = "/storage/app/public/' . $value->img . '"><span class="filmname">'
-            . $value->nameRus . ' (' . $value->year . ')</span> '
-            . ' <br><span class="likespan"> ' . $value->like . ' </span> / <span class="dislikespan">' . $value->dislike . '</span></p></a>'
-            . '</div>';
-        }
-    } else {
-        ?>
 
         <div class="attribute"><span class="headerCont">Каталог фильмов</span>
             <button class="btn list" data-toggle="dropdown" href="#"><i class="fas fa-list activeicon"></i> <i class="fa fa-caret-down"></i></button>
@@ -49,7 +23,7 @@
                 <form action="{{'/public'}}" method="POST">@csrf<button class="btn btn-default list-type" value="square"> <i class="fa fa-th"></i></li></button></form>
             </div>
 
-            <div class="filmsCount"><span style="font-weight: 600;margin-left:15px;color: green">Фильмов: <?= $count ?></span></div>
+            <div class="filmsCount"><span style="font-weight: 600;margin-left:15px;color: green">Новости: </span></div>
         </div>
 
 
@@ -57,42 +31,22 @@
             ?>
             <div class = "filmDivList">
                 <div>
-                    <a href = "/public/film/{{$value->id}}" class = "filmsName filmListName">
-                        <img class = "film" src = "/storage/app/public/{{$value->img }}" />
-
-                    </a>
-                    <div style="float: left;width: 77%; margin-left: 15px;">
+                    <div class="news_div"  class = "filmsName filmListName"><?=$value->header?></div>
+                    <img class = "film" src = "/storage/app/public/{{$value->img }}" />
+                    <div style="float: left;width: 74%; margin-left: 15px;">
                         <ul class="list-group">
                             <li class="list-group-item"><a href = "http://localhost1/public/film/{{$value->id}}" class = "filmsName filmListName">
                                     {{$value->nameRus}}
 
                                 </a>
-                                <div class="like_dislike"><span class="likespan"> {{ $value->like }} </span> / 
+                                <div class="like_dislike"><span class="likespan"> {{ $value->like }} </span> 
                                     <span class="dislikespan">{{ $value->dislike }}</span></div>
                             </li>
-                            <li class="list-group-item"><span style="font-weight: 600">Год:</span> {{ $value->year }}</li>
-                            <li class="list-group-item"><span style="font-weight: 600">
-                                    Жанр:</span> 
-                                @foreach($value['categories'] as $key => $categories)
-                                @if($key == count($value['categories'])-1)
-                                {{$categories->category}}
-                                @else
-                                {{$categories->category}} ,
-                                @endif
-                                @endforeach
-                            </li>
-                            <li class="list-group-item"><span style="font-weight: 600">Страна:</span> 
-                                @foreach($value['countries'] as $key => $countries)
-                                @if($key == count($value['countries'])-1)
-                                {{$countries->country}}
-                                @else
-                                {{$countries->country}} ,
-                                @endif
-                                @endforeach
-                            </li>
-                            <li class="list-group-item"><span style="font-weight: 600">Description:</span> <span class="textdesc">: {{$value->description}}</span></li>
+                            
+                            
+                            <li class="list-group-item"><span style="font-weight: 600">Description:</span> <span class="textdesc">: {{$value->text}}</span></li>
                         </ul>
-                        <a class="watchOnline" href = "/public/film/{{$value->id}}" class = "filmsName filmListName">Смотреть онлайн »</a>
+                        
                     </div>
                 </div>
 
@@ -100,7 +54,7 @@
             <hr>
             <?php
         }
-    }
+    
     ?>
 </div>
 

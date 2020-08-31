@@ -61,7 +61,7 @@
                         <img class = "film" src = "/storage/app/public/{{$value->img }}" />
 
                     </a>
-                    <div style="float: left;width: 77%; margin-left: 15px;">
+                    <div style="float: left;width: 74%; margin-left: 15px;">
                         <ul class="list-group">
                             <li class="list-group-item"><a href = "http://localhost1/public/film/{{$value->id}}" class = "filmsName filmListName">
                                     {{$value->nameRus}}

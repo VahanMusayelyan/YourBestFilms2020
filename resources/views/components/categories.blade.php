@@ -31,7 +31,7 @@
         ?>
     </div>
 
-    <li id="openDiv"><a data-toggle="dropdown" href="#">Показать все годы</a>
+    <li id="openDiv"><span data-toggle="dropdown" href="#">Показать все годы</span>
 
         <ul class="dropdown-menu filter-list-year">
             <?php

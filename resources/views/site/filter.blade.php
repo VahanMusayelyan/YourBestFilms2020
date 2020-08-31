@@ -86,7 +86,7 @@
                         <img class = "film" src = "/storage/app/public/{{$value['img'] }}" />
 
                     </a>
-                    <div style="float: left;width: 75%; margin-left: 15px;">
+                    <div style="float: left;width: 74%; margin-left: 15px;">
                         <ul class="list-group">
                             <li class="list-group-item"><a href = "http://localhost1/public/film/{{$value['id']}}" class = "filmsName filmListName">
                                     <?= str_replace($category, "<span style='color:red'>" . $category . "</span>", $value['nameRus']) ?>

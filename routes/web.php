@@ -36,6 +36,7 @@ Route::group(['prefix' => '/admin', ], function() {
 Route::resource('/film', 'Dashboard\FilmController');
 Route::resource('/country', 'Dashboard\CountryController');
 Route::resource('/category', 'Dashboard\CategoryController');
+Route::resource('/news', 'Dashboard\NewsController');
 Route::get('/film/filter/{filter}/{type}', 'Dashboard\FilmController@filter');
 
 });
@@ -52,6 +53,7 @@ Route::any('/registration', 'Site\RegisterController@index');
 Route::get('/random', 'Site\FilmsController@random');
 Route::get('/top', 'Site\FilmsController@topfilms');
 Route::get('/new', 'Site\FilmsController@newfilms');
+Route::get('/news', 'Site\NewsController@index');
 Route::get('/logout', 'Site\LoginController@logout');
 Route::get('/profile', 'Site\ProfileController@index')->name("profile");;
 Route::post('/profile/update', 'Site\ProfileController@update');

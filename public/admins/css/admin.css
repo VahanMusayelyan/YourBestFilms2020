@@ -286,3 +286,20 @@ table > tbody > tr > th:nth-child(7){
       padding: 10px 0 0 10px;
 }
 
+#text{
+   width: 82%;
+    float: right;
+    margin-right: 19px; 
+}
+
+.custom-file{
+    margin-left: 268px;
+}
+
+.edit_delete{
+    width: 200px;
+}
+
+body > div.wrapper > div > table > tbody > tr > td.edit_delete > form{
+    display: inline-block;
+}

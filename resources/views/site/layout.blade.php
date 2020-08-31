@@ -36,7 +36,7 @@
             <a href="http://localhost1/public/new">Новинки</a>
             <a href="http://localhost1/public/top">Топ 200</a>
             <a href="http://localhost1/public/random">Случайный</a>
-            <a href="#">NE UKAZANO</a>
+            <a href="http://localhost1/public/news">Новости</a>
             <div class="search-container">
                 <form action="/public/search" method="POST">
                     @csrf
@@ -205,7 +205,24 @@
 <footer class="main-footer">
     <nav class="bottomnav">
         <div class="menuDiv">
-
+            
+            
+            <div class="copyright">
+                YOURBESTFILMS
+                <br>
+                info@yourbestfilms.com
+            </div>
+            <div class="copyright">
+                Copyright © 2019-2020
+                <br>
+                16+
+            </div>
+            <div class="links">
+                <a href="http://localhost1/public/new" class="footer_links">Новинки</a>
+                <a href="http://localhost1/public/top" class="footer_links">Топ 200</a>
+                <a href="http://localhost1/public/random" class="footer_links">Случайный</a>
+                <a href="http://localhost1/public/news" class="footer_links">Новости</a>
+            </div>
         </div>
 
     </nav>

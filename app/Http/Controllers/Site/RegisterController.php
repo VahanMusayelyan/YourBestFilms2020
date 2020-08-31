@@ -35,7 +35,7 @@ class RegisterController extends AppController {
         $data= new User;
         $data->name = $request->name;
         $data->email = $request->email;
-        $data->password = $request->password;
+        $data->password = Hash::make($request->password);
         $data->save();
     
         return back()->with('success', 'Вы успешно зарегистрированы');

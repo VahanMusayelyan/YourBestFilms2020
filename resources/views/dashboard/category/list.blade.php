@@ -27,7 +27,7 @@
         <form class="catform" action="{{route('category.destroy',$value['id'])}}" method='POST' enctype='multipart/form-data'>
                     @csrf
                     @method('DELETE')
-          <?php echo "<button type='submit' class='btn btn-primary'>Delete</button></form></td></tr>";
+          <?php echo "<button type='submit' class='btn btn-danger'>Delete</button></form></td></tr>";
     }
     ?>
         </table>

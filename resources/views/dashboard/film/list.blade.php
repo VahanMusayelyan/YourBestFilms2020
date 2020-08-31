@@ -77,7 +77,7 @@
                 @csrf
                 @method('DELETE')
                 <?php
-                echo "<button type='submit' class='btn btn-primary'>Delete</button></form></td></tr>";
+                echo "<button type='submit' class='btn btn-danger'>Delete</button></form></td></tr>";
             }
             ?>
 
