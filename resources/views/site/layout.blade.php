@@ -30,13 +30,13 @@
 
     <nav class="topnav">
         <div class="menuDiv">
-            <a class="home" href="http://localhost1/public/"></a>
+            <a class="home" href="http://films/public/"></a>
 <!--            <img class="logo" id="logo" alt="welcome" src="/storage/app/public/upload/img.png">-->
 <!--            <i class="fa fa-paper-plane" style="font-size: 32px"></i>-->
-            <a href="http://localhost1/public/new">Новинки</a>
-            <a href="http://localhost1/public/top">Топ 200</a>
-            <a href="http://localhost1/public/random">Случайный</a>
-            <a href="http://localhost1/public/news">Новости</a>
+            <a href="http://films/public/new">Новинки</a>
+            <a href="http://films/public/top">Топ 200</a>
+            <a href="http://films/public/random">Случайный</a>
+            <a href="http://films/public/news">Новости</a>
             <div class="search-container">
                 <form action="/public/search" method="POST">
                     @csrf
@@ -218,10 +218,10 @@
                 16+
             </div>
             <div class="links">
-                <a href="http://localhost1/public/new" class="footer_links">Новинки</a>
-                <a href="http://localhost1/public/top" class="footer_links">Топ 200</a>
-                <a href="http://localhost1/public/random" class="footer_links">Случайный</a>
-                <a href="http://localhost1/public/news" class="footer_links">Новости</a>
+                <a href="http://films/public/new" class="footer_links">Новинки</a>
+                <a href="http://films/public/top" class="footer_links">Топ 200</a>
+                <a href="http://films/public/random" class="footer_links">Случайный</a>
+                <a href="http://films/public/news" class="footer_links">Новости</a>
             </div>
         </div>
 

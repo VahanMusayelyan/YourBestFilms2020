@@ -6,7 +6,7 @@ $(".paginations li").not(':first').not(':last').addClass("index");
 
 $("input[name=page]").keyup(function (event) {
     val = $(this).val();
-    $(".submitlinks").attr("href", "http://localhost1/public/search?page=" + val + "");
+    $(".submitlinks").attr("href", "http://films/public/search?page=" + val + "");
 });
 
 
@@ -19,7 +19,7 @@ $('input[name=page]').keypress(function (event) {
 
 $("input[name=pagenew]").keyup(function (event) {
     val = $(this).val();
-    $(".submitlinksnew").attr("href", "http://localhost1/public/new?page=" + val + "");
+    $(".submitlinksnew").attr("href", "http://films/public/new?page=" + val + "");
 });
 
 
@@ -31,7 +31,7 @@ $('input[name=pagenew]').keypress(function (event) {
 });
 $("input[name=pagetop]").keyup(function (event) {
     val = $(this).val();
-    $(".submitlinkstop").attr("href", "http://localhost1/public/top?page=" + val + "");
+    $(".submitlinkstop").attr("href", "http://films/public/top?page=" + val + "");
 });
 
 

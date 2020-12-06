@@ -49,7 +49,7 @@ $(".pagination li").not(':first').not(':last').mouseover(function () {
 
 $("input[name=page]").keyup(function (event) {
     val = $(this).val();
-    $(".submitlink").attr("href", "http://localhost1/public?page=" + val + "");
+    $(".submitlink").attr("href", "http://films/public?page=" + val + "");
 });
 
 

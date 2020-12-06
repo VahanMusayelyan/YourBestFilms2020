@@ -64,7 +64,7 @@
 
                 echo '<div class = "filmDiv">'
                 . '<p style = "text-align:center"> '
-                . '<a href = "http://localhost1/public/film/' . $value['id'] . '" class = "filmsName">'
+                . '<a href = "http://films/public/film/' . $value['id'] . '" class = "filmsName">'
                 . '<img class = "film" src = "/storage/app/public/' . $value['img'] . '">'
                 . $value['nameRus'] . ' (' . $value['year'] . ') '
                . ' <br><span class="likespan"> ' . $value['like'] . ' </span> / <span class="dislikespan">' . $value['dislike'] . '</span></p></a>'
@@ -88,7 +88,7 @@
                     </a>
                     <div style="float: left;width: 74%; margin-left: 15px;">
                         <ul class="list-group">
-                            <li class="list-group-item"><a href = "http://localhost1/public/film/{{$value['id']}}" class = "filmsName filmListName">
+                            <li class="list-group-item"><a href = "http://films/public/film/{{$value['id']}}" class = "filmsName filmListName">
                                     <?= str_replace($category, "<span style='color:red'>" . $category . "</span>", $value['nameRus']) ?>
 
                                 </a>
@@ -202,7 +202,7 @@ if ($page + 6 > $last) {
                               </li>';
     } else {
         echo '<li class="page-item previous round">
-                                <a style="padding:5px 15.5px 7px 15.5px;" class="page-link" href="http://localhost1/public/?page=' . ($page - 1) . '" rel="previous"> &#8249; </a>
+                                <a style="padding:5px 15.5px 7px 15.5px;" class="page-link" href="http://films/public/?page=' . ($page - 1) . '" rel="previous"> &#8249; </a>
                               </li>';
     }
 
@@ -235,7 +235,7 @@ if ($page + 6 > $last) {
                         </li>';
     } else {
         echo '<li class="page-item next round">
-                            <a style="padding:5px 15.5px 7px 15.5px;" class="page-link" href="http://localhost1/public/?page=' . ($page + 1) . '" rel="next"> &#8250; </a>
+                            <a style="padding:5px 15.5px 7px 15.5px;" class="page-link" href="http://films/public/?page=' . ($page + 1) . '" rel="next"> &#8250; </a>
                         </li>';
     }
 
@@ -249,7 +249,7 @@ if ($page + 6 > $last) {
 
     if ($page !== 1) {
         echo '<li class="page-item previous round">
-                                     <a class="page-link" style="padding:5px 15.5px 7px 15.5px;" href="http://localhost1/public/?page=' . ($page - 1) . '" rel="previous"> &#8249; </a>
+                                     <a class="page-link" style="padding:5px 15.5px 7px 15.5px;" href="http://films/public/?page=' . ($page - 1) . '" rel="previous"> &#8249; </a>
                                     </li>';
     } else {
         echo '<li class="page-item previous round">
@@ -267,7 +267,7 @@ if ($page + 6 > $last) {
 
     if ($k !== 5) {
         echo '<li class="page-item next round">
-                            <a style="padding:5px 15.5px 7px 15.5px;" class="page-link" href="http://localhost1/public/?page=' . ($page + 1) . '" rel="next"> &#8250; </a>
+                            <a style="padding:5px 15.5px 7px 15.5px;" class="page-link" href="http://films/public/?page=' . ($page + 1) . '" rel="next"> &#8250; </a>
                         </li>';
     } else {
         echo '<li class="page-item next round">
@@ -288,7 +288,7 @@ if ($page + 6 > $last) {
 
         if ($i == $page) {
             echo '<li class="page-item previous round">
-                                     <a class="page-link" style="padding:5px 15.5px 7px 15.5px;" href="http://localhost1/public/?page=' . ($page - 1) . '" rel="previous"> &#8249; </a>
+                                     <a class="page-link" style="padding:5px 15.5px 7px 15.5px;" href="http://films/public/?page=' . ($page - 1) . '" rel="previous"> &#8249; </a>
                                     </li>';
         }
         if (array_search($range[$i], $range) > 9) {
@@ -299,7 +299,7 @@ if ($page + 6 > $last) {
 
         if ($i == ($page + 5)) {
             echo '<li class="page-item next round">
-                            <a class="page-link" style="padding:5px 15.5px 7px 15.5px;" href="http://localhost1/public/?page=' . ($page + 1) . '" rel="next"> &#8250; </a>
+                            <a class="page-link" style="padding:5px 15.5px 7px 15.5px;" href="http://films/public/?page=' . ($page + 1) . '" rel="next"> &#8250; </a>
                         </li>';
         }
     }

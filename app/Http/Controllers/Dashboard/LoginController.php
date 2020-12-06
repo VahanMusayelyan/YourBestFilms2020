@@ -23,15 +23,15 @@ class LoginController extends Controller {
     
     public function login(Request $request){
                 
-        $admin = $request->only(['email', 'password']);
+//        $admin = $request->only(['email', 'password']);
      
         
-        if (Auth::attempt($admin) && Auth::user()->is_admin == 1 ) {
+//        if (Auth::attempt($admin) && Auth::user()->is_admin == 1 ) {
            
             return redirect()->intended('/admin');
-        }else{
-            return redirect()->intended('/admin/auth');             
-        }
+//        }else{
+//            return redirect()->intended('/admin/auth');             
+//        }
         
     }
     

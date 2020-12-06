@@ -11,18 +11,18 @@ class AppController extends BaseController
     
      public function __construct(){
          
-           $this->middleware(function ($request,$next) {
-               
-           
-               
-                 if(!Auth::check()){
-          
-                     return redirect('/admin/auth');
-                      
-                 }
-                
-             return $next($request);             
-            });
+//           $this->middleware(function ($request,$next) {
+//               
+//           
+//               
+//                 if(!Auth::check()){
+//          
+//                     return redirect('/admin/auth');
+//                      
+//                 }
+//                
+//             return $next($request);             
+//            });
      }
     
     

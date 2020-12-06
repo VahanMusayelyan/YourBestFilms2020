@@ -63,7 +63,7 @@
                     </a>
                     <div style="float: left;width: 74%; margin-left: 15px;">
                         <ul class="list-group">
-                            <li class="list-group-item"><a href = "http://localhost1/public/film/{{$value->id}}" class = "filmsName filmListName">
+                            <li class="list-group-item"><a href = "http://films/public/film/{{$value->id}}" class = "filmsName filmListName">
                                     {{$value->nameRus}}
 
                                 </a>
