@@ -22,7 +22,7 @@
 
         <div class="container">
             <h1>PLEASE SIGN IN</h1>
-            <form class="form-horizontal" method="post" action="{{'/public/admin/login'}}" enctype="multipart/form-data" id="myform">
+            <form class="form-horizontal" method="post" action="{{'/admin/login'}}" enctype="multipart/form-data" id="myform">
                 @csrf
                 <div class="form-group">
                     <label class="control-label col-sm-2" for="login">Login:</label>

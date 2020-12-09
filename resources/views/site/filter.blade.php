@@ -13,16 +13,11 @@
 
 <div class="contentFilms">
 
-
-
     <div class="attribute"><span class="headerCont">Каталог фильмов</span>
         <button class="btn list" data-toggle="dropdown" href="#"><i class="fa fa-th activeicon"></i></button>
         
-
         <div class="filmsCount"><span style="font-weight: 600;margin-left:15px;color: green">Фильмов: <?= $result->total() ?> --</span>
-
             <?php
-
             if (!empty($category)) {
 
                 echo "<span class='filtername'>Категории - </span>";
@@ -35,7 +30,7 @@
                     }
                 }
             }
-
+            
             if (!empty($year)) {
                 sort($year);
                 echo "<span class='filtername'>Годы - </span>";
@@ -49,15 +44,11 @@
                 }
             }
             ?>
-
         </div>
-
     </div>
     <div class="clear"></div>
 
     <div class="smallFilms">
-        
-
         <?php
         if ($list == 1){
             foreach ($result as $key => $value) {
@@ -76,7 +67,6 @@
 
         <?php
         $array = json_decode(json_encode($result->items()), true);
-
 
         foreach ($array as $key => $value) {
             ?>
@@ -132,39 +122,21 @@
                                         $k++;
                                     }
                                     ?>
-
                             </li>
-
-
                             <li class="list-group-item"><b>Описание:</b> <span class="textdesc">: 
                                     {{$value['description']}}
-                                </span></li>
+                               </span></li>
                         </ul>
-
                     </div>
                     <a class="watchOnline" href = "/public/film/{{$value['id']}}" class = "filmsName filmListName">Смотреть онлайн »</a>
                 </div>
-
             </div>
             <hr>
             <?php
         }
         }
         ?>
-
-
-
-
-
     </div>
-
-
-
-
-
-
-
-
 
     @if($result->lastPage()>1)
 
@@ -188,8 +160,6 @@ if ($page + 6 > $last) {
 
     <div class="page">
         <div class="containerpage">
-
-
             <nav>
                 <ul class="pagination">
 <?php
@@ -310,12 +280,9 @@ if ($page + 6 > $last) {
                             </script>';
 }
 ?>
-
                 </ul>
-
             </nav>
             <div class="pagesinput">
-
                 <div class="input-group mb-3 pageInp">
                     <span class="rangePages"> {{$page}} / {{$result->lastPage()}}</span>
                     <input type="text" class="form-control pageinput" placeholder="Стр." name="page">
@@ -323,7 +290,6 @@ if ($page + 6 > $last) {
                         <a class="btn btn-outline-secondary submitlinks">Ок</a>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

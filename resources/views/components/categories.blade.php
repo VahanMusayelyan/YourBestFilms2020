@@ -1,4 +1,4 @@
-<form action="{{'/public/filter'}}" method="POST" enctype="multipart/form-data">
+<form action="{{'/filter'}}" method="POST" enctype="multipart/form-data">
     @csrf
 <ul class="categorylist">
     <p style="margin:5px 0 15px 5px;font-weight: 600">Фильтры для выбора:</p>

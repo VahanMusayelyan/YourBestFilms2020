@@ -16,32 +16,32 @@
             <th> ID </th>
             <th> NAME ENGLISH 
                 <div style="position: relative">
-                    <a class="nameEngAsc fas fa-sort-up" href="<?= '/public/admin/film/filter/nameEng/asc' ?>"></a>
-                    <a class="nameEngDesc fas fa-sort-down" href="<?= '/public/admin/film/filter/nameEng/desc' ?>"></a>
+                    <a class="nameEngAsc fas fa-sort-up" href="<?= '/admin/film/filter/nameEng/asc' ?>"></a>
+                    <a class="nameEngDesc fas fa-sort-down" href="<?= '/admin/film/filter/nameEng/desc' ?>"></a>
                 </div>
             </th>
             <th> NAME RUSSIAN 
                 <div style="position: relative">
-                    <a class="nameRusAsc fas fa-sort-up" href="<?= '/public/admin/film/filter/nameRus/asc' ?>"></a>
-                    <a class="nameRusDesc fas fa-sort-down" href="<?= '/public/admin/film/filter/nameRus/desc' ?>"></a>
+                    <a class="nameRusAsc fas fa-sort-up" href="<?= '/admin/film/filter/nameRus/asc' ?>"></a>
+                    <a class="nameRusDesc fas fa-sort-down" href="<?= '/admin/film/filter/nameRus/desc' ?>"></a>
                 </div>
             </th>
             <th> YEAR 
                 <div style="position: relative">
-                    <a class="yearAsc fas fa-sort-up" href="<?= '/public/admin/film/filter/year/asc' ?>"></a>
-                    <a class="yearDesc fas fa-sort-down" href="<?= '/public/admin/film/filter/year/desc' ?>"></a>
+                    <a class="yearAsc fas fa-sort-up" href="<?= '/admin/film/filter/year/asc' ?>"></a>
+                    <a class="yearDesc fas fa-sort-down" href="<?= '/admin/film/filter/year/desc' ?>"></a>
                 </div>
             </th>
             <th> IMDB 
                 <div style="position: relative">
-                    <a class="ratingImdbAsc fas fa-sort-up" href="<?= '/public/admin/film/filter/ratingImdb/asc' ?>"></a>
-                    <a class="ratingImdbDesc fas fa-sort-down" href="<?= '/public/admin/film/filter/ratingImdb/desc' ?>"></a>
+                    <a class="ratingImdbAsc fas fa-sort-up" href="<?= '/admin/film/filter/ratingImdb/asc' ?>"></a>
+                    <a class="ratingImdbDesc fas fa-sort-down" href="<?= '/admin/film/filter/ratingImdb/desc' ?>"></a>
                 </div>
             </th>
             <th> KPSK 
                 <div style="position: relative">
-                    <a class="ratingKinopoiskAsc fas fa-sort-up" href="<?= '/public/admin/film/filter/ratingKinopoisk/asc' ?>"></a>
-                    <a class="ratingKinopoiskDesc fas fa-sort-down" href="<?= '/public/admin/film/filter/ratingKinopoisk/desc' ?>"></a>
+                    <a class="ratingKinopoiskAsc fas fa-sort-up" href="<?= '/admin/film/filter/ratingKinopoisk/asc' ?>"></a>
+                    <a class="ratingKinopoiskDesc fas fa-sort-down" href="<?= '/admin/film/filter/ratingKinopoisk/desc' ?>"></a>
                 </div>
             </th>
             <th> CAT </th>
@@ -55,7 +55,7 @@
 
             echo "<tr>"
             . "<td>" . $value['id'] . "</td>"
-            . "<td><a href='/public/admin/film/" . $value['id'] . "'>" . $value['nameEng'] . "</td>"
+            . "<td><a href='/admin/film/" . $value['id'] . "'>" . $value['nameEng'] . "</td>"
             . "<td>" . $value['nameRus'] . "</td>"
             . "<td>" . $value['year'] . "</td>"
             . "<td>" . $value['ratingImdb'] . "</td>"
@@ -87,7 +87,7 @@
     </table>
     {{ $result->links() }}
 
-    <a class="btn btn-warning partnerAdd" href="/public/admin/film/create">ADD FILM</a>
+    <a class="btn btn-warning partnerAdd" href="/admin/film/create">ADD FILM</a>
 
 </div>
 

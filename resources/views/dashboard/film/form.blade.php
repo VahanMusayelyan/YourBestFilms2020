@@ -101,7 +101,7 @@
                             </div>
                     </form>
             </fieldset>
-            <a class="btn btn-warning partnerAdd" href="/public/admin/film">SHOW FILMS</a>
+            <a class="btn btn-warning partnerAdd" href="/admin/film">SHOW FILMS</a>
         </div> 
     </div>
     @if ($errors->any())

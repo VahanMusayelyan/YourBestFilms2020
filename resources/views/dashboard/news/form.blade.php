@@ -38,7 +38,7 @@
                     </div>
                 </form>
             </fieldset>
-            <a class="btn btn-warning news" href="/public/admin/news">SHOW NEWS</a>
+            <a class="btn btn-warning news" href="/admin/news">SHOW NEWS</a>
         </div> 
     </div>
     @if ($errors->any())

@@ -37,7 +37,7 @@ $(document).ready(function () {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
             type: 'POST',
-            url: 'ajax_watch',
+            url: '/public/film/ajax_watch',
             data: {id: id},
             success: function (watch) {
                 if (watch == 1) {
@@ -65,7 +65,7 @@ $(document).ready(function () {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
             type: 'POST',
-            url: 'ajax_later',
+            url: '/public/film/ajax_later',
             data: {id: id},
             success: function (watch) {
                 if (watch == 1) {

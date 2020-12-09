@@ -27,7 +27,7 @@
                     </div>
                 </form>
             </fieldset>
-            <a class="btn btn-warning partnerAdd" href="/public/admin/country">SHOW COUNTRIES</a>
+            <a class="btn btn-warning partnerAdd" href="/admin/country">SHOW COUNTRIES</a>
         </div> 
     </div>
     @if ($errors->any())

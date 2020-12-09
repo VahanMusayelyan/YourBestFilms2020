@@ -33,7 +33,7 @@
         </table>
     {{ $result->links() }}
     
-    <a class="btn btn-warning partnerAdd" href="/public/admin/category/create">ADD CATEGORY</a>
+    <a class="btn btn-warning partnerAdd" href="/admin/category/create">ADD CATEGORY</a>
 
 </div>
 

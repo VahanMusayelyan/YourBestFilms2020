@@ -33,7 +33,7 @@
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4" id="menuDesc">
             <!-- Brand Logo -->
-            <a href="/public/admin/" class="brand-link">
+            <a href="/admin/" class="brand-link">
                 <img src="{{url('/admins/dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
                      style="opacity: .8">
                 <span class="brand-text font-weight-light">Admin</span>
@@ -56,25 +56,25 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="/public/admin/film" class="nav-link" id="film_link">
+                                    <a href="/admin/film" class="nav-link" id="film_link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Films</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="/public/admin/category" class="nav-link" id="cat_link">
+                                    <a href="/admin/category" class="nav-link" id="cat_link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Categories</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="/public/admin/country" class="nav-link" id="country_link">
+                                    <a href="/admin/country" class="nav-link" id="country_link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Countries</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="/public/admin/news" class="nav-link" id="news_link">
+                                    <a href="/admin/news" class="nav-link" id="news_link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>News</p>
                                     </a>
@@ -120,7 +120,7 @@
             Anything you want
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy; 2020 <a href="/laravel/public/admin/">AdminLTE.io</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2020 <a href="/admin/">AdminLTE.io</a>.</strong> All rights reserved.
     </footer>
 </div>
 <!-- ./wrapper -->

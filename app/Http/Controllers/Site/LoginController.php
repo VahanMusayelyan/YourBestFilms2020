@@ -26,29 +26,18 @@ class LoginController extends Controller {
         $email = $request->email;
         $password = $request->password;
         $list = 1;
+        
+        $user = $request->only(['email', 'password']);
 
-        $user = User::where([
-                        ['email', $email],
-                        ['password', $password]
-                ])->get()->toArray();
-
-
-
-
-        if (count($user) > 0) {
-            $request->session()->put('role', $user[0]['id']);
-            $request->session()->put('name', $user[0]['name']);
-
+        if (Auth::attempt($user)) {
+            $request->session()->put('role', Auth::user()->id);
+            $request->session()->put('name', Auth::user()->name);
             $ses = $request->session()->get('role');
             $name = $request->session()->get('name');
-
-
             $result = Film::paginate(12);
             
             return redirect()->route('main');
-            
-//            return view('site.welcome', ['result' => $result, 'user' => $user, 'ses' => $ses, 'name' => $name, 'count' => $count, 'list' => $list]);
-        } else {
+        }else{
             return redirect()->back()->with('error', 'Логин / пароль не правильно');;
         }
     }

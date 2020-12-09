@@ -250,17 +250,22 @@ textarea{
     margin-top: 8px;
     font-size: 17px;
     border: none;
+    border-radius: 10px;
 }
 
 .topnav .search-container button {
     float: right;
     padding: 6px 10px;
     margin-top: 8px;
-    margin-right: 16px;
+    margin-right: 15px;
     background: #ddd;
     font-size: 17px;
     border: none;
     cursor: pointer;
+    margin-left: -10px;
+    z-index: 81;
+    position: relative;
+    border-radius: 0 10px 10px 0;
 }
 
 .topnav .search-container button:hover {
@@ -288,7 +293,7 @@ textarea{
 }
 
 .menuDiv{
-    width: 65%;
+  width: 73%;
     height:73px;
     margin: 0 auto;
 }
@@ -299,7 +304,7 @@ textarea{
 }
 
 .topnav .home {
-    padding: 36px 40px 37px 40px;
+padding: 36px 40px 38px 40px;
 }
 
 .search-container{

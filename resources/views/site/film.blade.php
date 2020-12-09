@@ -9,9 +9,9 @@
         <img src="/storage/app/public/<?= $value->img ?>">
     </div>
     <div class="descFilm">
-        <div class="desc"><p>Name English:</p></div><div class="value">  <?= $value->nameEng ?></div>
-        <div class="desc"><p>Name Russian:</p></div><div class="value">  <?= $value->nameRus ?></div>
-        <div class="desc"><p>Category:</p></div>
+        <div class="desc"><p>Англиский называние :</p></div><div class="value">  <?= $value->nameEng ?></div>
+        <div class="desc"><p>Русский называние:</p></div><div class="value">  <?= $value->nameRus ?></div>
+        <div class="desc"><p>Категории:</p></div>
         <div class="value" style="margin-left: -5px"><?php
             $countcat = count($category);
             foreach ($category as $keycat => $valuecat) {
@@ -23,7 +23,7 @@
             }
             ?></div>
 
-        <div class="desc"><p>Country:</p></div> 
+        <div class="desc"><p>Страны:</p></div> 
         <div class="value" style="margin-left: -5px">
             <?php
             $countcount = count($countries);
@@ -40,11 +40,11 @@
             ?>
         </div>
 
-        <div class="desc"><p>Year:</p></div><div class="value"> <?= $value->year ?></div>
-        <div class="desc half"><p>Rating Imdb:</p></div><div class="value"> <?= $value->ratingImdb ?></div>
-        <div class="desc half"><p>Rating Kinopoisk:</p></div><div class="value"> <?= $value->ratingKinopoisk ?></div>
-        <div class="desc"><p>Duration:</p></div><div class="value"> <?= $value->duration ?> minute</div>
-        <div><div class="description" style="float: left;width: 170px;font-weight: bold">Description:</div><span class="textdesc"> <?= $value->description ?></span></div>
+        <div class="desc"><p>Год:</p></div><div class="value"> <?= $value->year ?></div>
+        <div class="desc half"><p>Рейтинг Imdb:</p></div><div class="value"> <?= $value->ratingImdb ?></div>
+        <div class="desc half"><p>Рейтинг Kinopoisk:</p></div><div class="value"> <?= $value->ratingKinopoisk ?></div>
+        <div class="desc"><p>Длительность:</p></div><div class="value"> <?= $value->duration ?> минут</div>
+        <div><div class="description" style="float: left;width: 170px;font-weight: bold">Описание:</div><span class="textdesc"> <?= $value->description ?></span></div>
 
         <div class="btn-group likDislike">
 
@@ -113,7 +113,7 @@
     </div>
 
     <div class="comment">
-        <h2>Comments</h2>
+        <h2>Коментарии</h2>
         <form action="{{'/public/film/'.$value->id.'/comment'}}" method="POST">
             @csrf
             <textarea class="writecomment" placeholder="Поделитесь с нами своим мнением" <?php if (!session()->has('role')) echo 'disabled="disabled" style="opacity:0.4"'; ?> name="comment"></textarea>

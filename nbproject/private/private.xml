@@ -2,6 +2,37 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/category/list.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/film/edit.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/film/form.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/site/new.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/film/list.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/category/form.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/app/Http/Controllers/Site/FilmsController.php</file>
+            <file>file:/C:/OpenServer/domains/films/public/.htaccess</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/layout.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/site/film.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/site/layout.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/site/profile.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/country/edit.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/news/edit.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/country/form.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/news/form.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/app/Http/Controllers/Site/FilterController.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/category/edit.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/site/news.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/site/top.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/site/filter.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/routes/web.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/components/categories.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/country/list.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/news/list.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/film/details.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/dashboard/auth/login.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/site/random.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/site/welcome.blade.php</file>
+            <file>file:/C:/OpenServer/domains/films/resources/views/site/search.blade.php</file>
+        </group>
     </open-files>
 </project-private>

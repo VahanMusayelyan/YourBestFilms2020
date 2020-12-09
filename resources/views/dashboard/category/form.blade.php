@@ -27,7 +27,7 @@
                     </div>
                 </form>
             </fieldset>
-            <a class="btn btn-warning partnerAdd" href="/public/admin/category">SHOW CATEGORIES</a>
+            <a class="btn btn-warning partnerAdd" href="/admin/category">SHOW CATEGORIES</a>
         </div> 
     </div>
     @if ($errors->any())

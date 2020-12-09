@@ -41,7 +41,7 @@
                     </div>
                 </form>
             </fieldset>
-            <a class="btn btn-warning partnerAdd" href="/public/admin/news">SHOW NEWS</a>
+            <a class="btn btn-warning partnerAdd" href="/admin/news">SHOW NEWS</a>
         </div>
         @if ($errors->any())
         <div class="alert alert-danger">
